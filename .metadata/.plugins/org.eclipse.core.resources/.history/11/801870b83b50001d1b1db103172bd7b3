@@ -1,0 +1,15 @@
+package com.experion.utility;
+
+import java.util.Scanner;
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int mainChoice;
+		Scanner scanner = new Scanner(System.in);
+		
+	}
+
+}

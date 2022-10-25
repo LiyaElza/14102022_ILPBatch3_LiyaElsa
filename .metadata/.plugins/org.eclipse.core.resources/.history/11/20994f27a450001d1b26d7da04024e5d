@@ -1,0 +1,36 @@
+package com.experion.entity;
+
+import java.util.ArrayList;
+
+import com.experion.service.LoanService;
+
+public class LoanAccount extends Account implements LoanService{
+
+	
+	
+
+	public LoanAccount(String accountCode, String accountType, double accountBalance,
+			ArrayList<BankServices> bankservices) {
+		super(accountCode, accountType, accountBalance, bankservices);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	@Override
+	public Account chequeDeposit(Account account) {
+		// TODO Auto-generated method stub
+		return account;
+		
+	}
+
+	@Override
+	public Account cashDeposit(Account account) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the amount to be deposited");
+		double cashDeposit=scanner.nextDouble();
+		account.setAccountBalance(account.getAccountBalance()+cashDeposit);
+		return account;
+	}
+
+}

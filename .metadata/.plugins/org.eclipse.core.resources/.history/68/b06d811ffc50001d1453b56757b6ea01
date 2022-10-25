@@ -1,0 +1,13 @@
+package com.experion.entity;
+
+import java.util.ArrayList;
+
+import com.experion.service.BankServices;
+
+public class Product {
+	private String productCode;
+	private String productType;
+	private ArrayList<BankServices> bankservices;
+	
+	
+}

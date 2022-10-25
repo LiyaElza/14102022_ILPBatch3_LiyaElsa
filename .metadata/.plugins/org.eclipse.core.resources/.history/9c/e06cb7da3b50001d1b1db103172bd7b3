@@ -1,0 +1,30 @@
+package com.experion.utility;
+
+import java.util.Scanner;
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char mainChoice;
+		Scanner scanner = new Scanner(System.in);
+		
+		do {
+			System.out.println("****Welcome to Bank*****");
+			System.out.println("1.Create Account \n 2.Manage Accounts 3.Exit");
+			int serviceChoice=scanner.nextInt();
+			switch(serviceChoice) {
+			case 1 : 
+				break;
+			case 2 :
+				break;
+			case 3 : System.exit(0);
+			}
+			System.out.println("Do you want to continue? (y/n)");
+			mainChoice=scanner.next().charAt(0);
+		}while(mainChoice =='y');
+		
+	}
+
+}

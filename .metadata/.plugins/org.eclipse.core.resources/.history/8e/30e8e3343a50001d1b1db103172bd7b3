@@ -1,0 +1,11 @@
+package com.experion.entity;
+
+public class CurrentAccount extends Account {
+
+	@Override
+	public void cashDeposit() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

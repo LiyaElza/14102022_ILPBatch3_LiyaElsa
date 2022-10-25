@@ -1,0 +1,10 @@
+package com.experionAssignment1.sumOfSeries;
+
+public class Q7FactorialSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

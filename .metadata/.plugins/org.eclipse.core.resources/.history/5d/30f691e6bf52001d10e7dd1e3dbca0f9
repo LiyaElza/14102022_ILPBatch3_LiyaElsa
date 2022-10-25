@@ -1,0 +1,17 @@
+package com.experionAssignment1.sumOfSeries;
+
+public class Snippet {
+	public static double factorial(double limit)
+		{
+			
+			double factorial=1;
+			
+			for(double index=1;index<=limit;index++)
+			{
+				factorial=factorial*index;
+				
+			}
+			return factorial;
+		}
+}
+

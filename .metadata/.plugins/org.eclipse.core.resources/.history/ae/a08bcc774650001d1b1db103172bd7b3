@@ -1,0 +1,16 @@
+package com.experion.entity;
+
+public class LoanAccount extends Account {
+
+	public LoanAccount(String customerCode, String customerName, String accountType, double accountBalance) {
+		super(customerCode, customerName, accountType, accountBalance);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void cashDeposit() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

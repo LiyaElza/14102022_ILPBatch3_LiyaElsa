@@ -1,0 +1,10 @@
+package com.experion.entity;
+
+import java.util.ArrayList;
+
+public class Account extends Product {
+	private String accountNumber;
+	private double accountBalance;
+	
+	p
+	

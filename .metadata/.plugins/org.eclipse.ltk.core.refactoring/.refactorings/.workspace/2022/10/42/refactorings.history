@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;15102011-ilp_ObjectOrientedProgramming&apos; to &apos;15102022-ilp_ObjectOrientedProgramming&apos;&#x0D;&#x0A;- Original element: &apos;15102011-ilp_ObjectOrientedProgramming&apos;&#x0D;&#x0A;- Renamed element: &apos;15102011-ilp_ObjectOrientedProgramming&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;15102011-ilp_ObjectOrientedProgramming&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=15102011-ilp_ObjectOrientedProgramming" name="15102022-ilp_ObjectOrientedProgramming" references="true" stamp="1665816686486" version="1.0"/>
+</session>

@@ -1,0 +1,11 @@
+package com.experion.service;
+
+public class Snippet {
+	public static void main(String[] args) {
+		if(account.getAccountBalance()>0)
+					account.setAccountBalance(account.getAccountBalance()-cashWithdrawal);
+				else
+					System.out.println("No Account Balance");
+	}
+}
+

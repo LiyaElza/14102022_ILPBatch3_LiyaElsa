@@ -1,0 +1,9 @@
+package com.experion.entity;
+
+public abstract class Account {
+	private String customerCode;
+	private String customerName;
+	private String accountType;
+	private double accountBalance;
+
+}

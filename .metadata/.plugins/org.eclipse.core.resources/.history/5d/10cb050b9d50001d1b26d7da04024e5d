@@ -1,0 +1,39 @@
+package com.experion.entity;
+
+import java.util.ArrayList;
+
+import com.experion.service.SavingsCurrentService;
+
+public class SavingsMaxAccount extends Account implements SavingsCurrentService{
+
+	
+
+	
+
+	public SavingsMaxAccount(String accountCode, String accountType, double accountBalance,
+			ArrayList<BankServices> bankservices) {
+		super(accountCode, accountType, accountBalance, bankservices);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void cashDeposit() {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the amount to be deposited");
+		
+
+	}
+
+	@Override
+	public void atmWithdrawal() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onlineBanking() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

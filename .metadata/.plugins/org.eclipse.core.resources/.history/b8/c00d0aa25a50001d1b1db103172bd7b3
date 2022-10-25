@@ -1,0 +1,28 @@
+package com.experion.entity;
+
+import java.util.ArrayList;
+
+import com.experion.service.LoanService;
+
+public class LoanAccount extends Account implements LoanService{
+
+	
+	public LoanAccount(String customerCode, String customerName, String accountType, double accountBalance,
+			ArrayList<BankServices> bankservices) {
+		super(customerCode, customerName, accountType, accountBalance, bankservices);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void cashDeposit() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void chequeDeposit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

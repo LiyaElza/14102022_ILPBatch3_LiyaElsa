@@ -1,0 +1,71 @@
+package com.experion.entity;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.experion.service.BankServices;
+import com.experion.service.CurrentService;
+import com.experion.service.SavingsCurrentService;
+
+public class CurrentAccount extends Account implements SavingsCurrentService,CurrentService {
+
+	
+	
+
+	
+	public CurrentAccount(String productCode, String productType, ArrayList<BankServices> bankservices,
+			double accountBalance) {
+		super(productCode, productType, bankservices, accountBalance);
+	}
+
+
+	Scanner scanner = new Scanner(System.in);
+
+	@Override
+	public void mobileBanking() {
+		System.out.println("Mobile Banking Services are Currently Unavailable");
+		
+	}
+
+
+	@Override
+	public Account onlineBanking(Account account) {
+		// TODO Auto-generated method stub
+		System.out.println("Available Sevices Online");
+		System.out.println("1.Cash Deposit\n2.Cash Withdrawal\n3.Display Account Balance");
+		int serviceSelection = scanner.nextInt();
+		return account;
+	}
+
+	@Override
+	public Account cashDeposit(Account account) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the amount to be deposited");
+		double cashDeposit=scanner.nextDouble();
+		if(cashDeposit<1000000) {
+			account.setAccountBalance(account.getAccountBalance()+cashDeposit);
+		}
+		else
+		{
+			System.out.println("Sorry..Cannot deposit more than 1 lakh as cash..Try cheque");
+		}
+		return account;
+	}
+
+
+	@Override
+	public Account atmWithdrawal(Account account) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the amount to be withdrawed");
+		double cashWithdrawal=scanner.nextDouble();
+		if(account.getAccountBalance()>0) {
+			if(cashWithdrawal>100000)
+				account.setAccountBalance(account.getAccountBalance()-cashWithdrawal);
+			else
+				System.out.println("The amount exceeds limit...You can withdraw only upto 25000");}
+		else
+			System.out.println("No Account Balance");
+		return account;
+	}
+
+}

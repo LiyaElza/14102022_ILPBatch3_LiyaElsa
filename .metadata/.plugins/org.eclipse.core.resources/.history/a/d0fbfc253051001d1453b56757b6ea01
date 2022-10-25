@@ -1,0 +1,20 @@
+package com.experion.service;
+
+import java.util.ArrayList;
+
+import com.experion.entity.Service;
+
+public class BankServiceCreation {
+	
+	public static ArrayList<Service> createServices()
+	{
+		ArrayList<Service> allServiceList = new ArrayList();
+		allServiceList.add(new Service("SOB100","Online Banking"));
+		allServiceList.add(new Service("SMB200","Mobile Banking"));
+		allServiceList.add(new Service("SCD300","Cash Deposit"));
+		allServiceList.add(new Service("SCW400","Cash Withdrawal"));
+		allServiceList.add(new Service("SCHQD500","Cheque Deposit"));
+		return allServiceList;
+	}
+
+}

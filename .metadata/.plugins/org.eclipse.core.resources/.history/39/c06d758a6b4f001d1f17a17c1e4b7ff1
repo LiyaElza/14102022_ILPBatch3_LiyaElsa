@@ -1,0 +1,32 @@
+package com.experion.service;
+
+import com.experion.entity.Card;
+import com.experion.entity.Product;
+
+public class Service {
+	
+	
+	
+	public static Product createProduct(String productType)
+	{
+		Product product = null;
+		if(productType.compareTo("Cards")==0)
+		{
+			product= new Card("RC100","MasterCard","Cards","Master");
+		}
+		else if(productType.compareTo("Accounts")==0)
+		{
+			product= new Card("AC100","Savings Account","Accounts","Savings");
+		}
+		return product;
+		
+		 
+	}
+	
+
+	public static void buyProduct()
+	{
+		
+	}
+
+	}
