@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/teamSpaar_Assignment/src/com/experionAssignment1/sumOfSeries/Q8FactorialPattern.java"/>
+        <listEntry value="/teamSpaar_BasicProgrammingAssignment/src/com/experion/Assignment/Q8FactorialPattern.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.experionAssignment1.sumOfSeries.Q8FactorialPattern"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.experion.Assignment.Q8FactorialPattern"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="teamSpaar_Assignment"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="teamSpaar_BasicProgrammingAssignment"/>
 </launchConfiguration>

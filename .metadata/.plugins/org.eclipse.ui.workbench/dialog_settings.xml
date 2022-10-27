@@ -20,6 +20,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\ILP_Experion\Export\BasicProgramming.zip"/>
 			<item value="D:\ILP_Experion\Export\BankAssignment.zip"/>
 			<item value="D:\ILP_Experion\Export\productDate.zip"/>
 			<item value="D:\ILP_Experion\Export\sample.zip"/>
@@ -28,5 +29,7 @@
 	<section name="FileSystemExportWizard">
 	</section>
 	<section name="ZipFileImportWizard">
+	</section>
+	<section name="FileSystemImportWizard">
 	</section>
 </section>

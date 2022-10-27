@@ -1,6 +1,0 @@
-package com.experion.entity;
-
-public class Product {
-	String productName;
-
-}
